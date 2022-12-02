@@ -12,4 +12,4 @@ Clone this
 https://github.com/volenzo/Instagram-clone
 ## Live Demo
 Here is the link to the live page: [Instagram clone](https://instagram-stutern-clone.netlify.app/)
-Really challenging but worth it!
+
