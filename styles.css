@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Segoe UI', 'Helvetica', 'Arial' sans-serif;
+    display: flex;
+    width: 90%;
+    background-color: rgb(252, 252, 252);
+}
+
+/* ===================== STYLING THE NAVIGATION BAR =========================================== */
+
+.nav_container {
+    width: 19%;
+    border-right: 0.3px solid lightgrey;
+    height: 100vh;
+    padding: 2.5rem 2rem;
+    background-color: white;
+    position: fixed;
+}
+
+nav > a > img {
+    width: 6.5rem;
+}
+
+.nav_items {
+    margin-top: 3rem;
+}
+
+.each_nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 2.5rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #333333;
+}
+
+.each_nav > h3 {
+    font-weight: 400;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.each_nav > img {
+    width: 1.3rem;
+    border-color: transparent;
+    border-radius: 100px;
+}
+
+.each_nav_home {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    padding-bottom: 2.5rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #333333;
+}
+
+/* ================ STYLING THE HERO SECTION ============= */
+
+.hero_section {
+    width: 40%;
+    margin-left: 7rem;
+    position: relative;
+    left: 15rem;
+}
+
+#img_content, #prof_pic {
+    margin-right: 0.8rem;
+}
+
+#prof_pic {
+    width: 3.5rem;
+    border-radius: 100px;
+    position: relative;
+    left: -0.05rem;
+    top: -4rem;
+}
+
+.first_section {
+    display: flex;
+    text-align: center;
+    border: 0.5px solid lightgrey;
+    margin: 1.5rem 0;
+    padding: 1rem 0 1rem 1rem;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.first_section > div > h6 {
+    font-weight: 400;
+    margin-top: -4rem;
+}
+
+/* ========== STYLING THE SECOND PART OF THE SECOND SECTION ===== */
+
+.main_section {
+    border: 0.5px solid lightgrey;
+    border-radius: 10px;
+    margin: 1.5rem 0;
+    padding: 0.7rem 0;
+    background-color: white;
+}
+
+.top_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem 0.3rem;
+    width: 98%;
+}
+
+.name_content {
+    display: flex;
+}
+
+.name_content a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#main_con {
+    width: 3.1rem;
+}
+
+#main_pic {
+    width: 2.5rem;
+    border-radius: 100px;
+    position: relative;
+    left: -2.75rem;
+}
+
+#username {
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    margin-left: -2.1rem;
+}
+
+.top_content > div {
+    display: flex;
+    align-items: center;
+}
+
+.main_section > img{
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.social_icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 95%;
+    padding: 1rem 0;
+}
+
+.social_icons a {
+    color: #1f1e1e;
+}
+
+.main_icons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.main_icons img {
+    width: 20rem;
+}
+
+#below_icons {
+    width: 1.5rem;
+    border-radius: 100px;
+}
+
+.likes {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.likes > h5 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #1f1e1e;
+}
+
+.likes > h5 > a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #1f1e1e;
+}
+
+.main_section h5 {
+    width: 95%;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0.3rem 0;
+}
+
+.main_section > h5 > a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #1f1e1e;
+}
+
+#view {
+    text-decoration: none;
+    font-weight: 400;
+    color: grey;
+    margin-left: 0.3rem;
+    font-size: 14px;
+    padding-left: 0.5rem;
+}
+
+.main_section p {
+    font-size: 10px;
+    padding: 0.7rem;
+    color: grey;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 0.7rem;
+    margin: 0 auto;
+    border-top: 1px solid lightgrey;
+}
+
+.comment input {
+    margin-left: 0.5rem;
+    font-size: 14px;
+    width: 85%;
+    color: grey;
+    padding: 0.8rem 0 0.5rem;
+    outline: none;
+    border: none;
+}
+
+.comment a {
+    text-decoration: none;
+    font-size: 14px;
+    color: grey;
+    padding-top: 0.3rem;
+}
+
+#third_pic {
+    width: 2.4rem;
+    height: 2.6rem;
+    border-radius: 100px;
+    position: relative;
+    left: -2.75rem;
+}
+
+.fa-face-smile {
+    padding-top: 0.3rem;
+}
+
+/* ============ FOOTER ================ */
+
+.footer_container {
+    width: 33%;
+    margin: 3.5rem 0 0 2.5rem;
+    position: relative;
+    left: 15rem;
+}
+
+.footer_profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+
+.footer_profile img {
+    width: 3.5rem;
+    border-radius: 100px;
+    margin-right: 0.75rem;
+}
+
+.footer_profile div {
+    font-size: 14px;
+    margin-right: 0.7rem;
+}
+
+#inst_name {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    font-size: 14px;
+}
+
+#prof_name {
+    margin-top: 0.2rem;
+    font-weight: 400;
+    color: grey;
+}
+
+.footer_profile a {
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(52, 142, 202);
+}
+
+.top_text {
+    display: flex;
+    align-items: center;
+    gap: 9.1rem;
+    margin-bottom: 1rem;
+}
+.top_text > h4 {
+    font-size: 14px;
+    color: grey;
+    font-weight: 500;
+}
+
+.top_text > a {
+    font-size: 12px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.suggestions_content {
+    padding-bottom: 1rem;
+}
+
+.suggestions {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0.75rem 0.5rem;
+}
+
+.first_list {
+    margin-right: 6rem;
+}
+
+.second_list {
+    margin-right: 7.3rem;
+}
+
+.fourth_list {
+    margin-right: 7.9rem;
+}
+
+.fifth_list {
+    margin-right: 8.3rem;
+}
+
+#side_pic {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 100px;
+    margin-right: 1rem;
+}
+
+#follow_name {
+    font-size: 12px;
+    color: grey;
+    font-weight: 400;
+    margin-top: 0.2rem;
+}
+
+.follow_link {
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(52, 142, 202);
+}
+
+.bottom_footer {
+    padding-left: 0.5rem;
+}
+
+.bottom_footer a {
+    text-decoration: none;
+    font-size: 12px;
+    color: grey;
+}
+
+.bottom_footer h5 {
+    color: grey;
+    font-weight: 400;
+    padding-top: 1rem;
+}
